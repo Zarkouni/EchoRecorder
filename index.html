@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تطبيق تسجيل الصوت</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1><i class="fas fa-microphone-alt"></i> تطبيق تسجيل الصوت</h1>
+    <p>سجل صوتك، أضف التأثيرات، واحفظه بسهولة!</p>
+    <button id="recordBtn"><i class="fas fa-record-vinyl"></i> بدء التسجيل</button>
+    <button id="echoBtn" disabled><i class="fas fa-magic"></i> إضافة تأثير الصدى</button>
+    <button id="saveBtn" disabled><i class="fas fa-save"></i> حفظ التسجيل</button>
+    <audio id="audioPlayback" controls></audio>
+  </div>
+  <footer>
+    <p>تم تصميم التطبيق بواسطة <span>طارق</span> © 2024</p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
